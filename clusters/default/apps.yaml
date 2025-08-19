@@ -9,5 +9,5 @@ spec:
   prune: true
   sourceRef:
     kind: GitRepository
-    name: k8s-deploy
+    name: infra-flux
     namespace: infra-flux
