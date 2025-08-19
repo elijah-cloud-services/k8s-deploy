@@ -3,7 +3,7 @@
 apiVersion: source.toolkit.fluxcd.io/v1
 kind: GitRepository
 metadata:
-  name: infra-flux
+  name: k8s-deploy
   namespace: infra-flux
 spec:
   interval: 1m0s
