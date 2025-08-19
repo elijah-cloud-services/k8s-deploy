@@ -30,13 +30,6 @@ spec:
   interval: 30m
   values:
     minecraftServer:
-      resources:
-        requests:
-          cpu: "250m"
-          memory: "512Mi"
-        limits:
-          cpu: "500m"
-          memory: "1Gi"
       eula: "true"
       version: "1.21.8"
       motd: "elijahs.space"
